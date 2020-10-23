@@ -1,0 +1,112 @@
+<html lang="vi">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <link rel="stylesheet" href="style.css">
+      <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+	  <meta property="og:url" content="/" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Thương ❤ Tâm Anh" />
+    <meta property="og:description" content="Trong TÂM ANH chỉ có TÂM ANH" />
+    <meta property="og:image" content="https://thuongtamanh.top/bg.jpg" />
+      <title>Together</title>
+	  <script language=javascript>
+            title_tmp1 = document.title
+            if (title_tmp1.indexOf(">>") != -1) {
+                title_tmp2 = title_tmp1.split(">>");
+                title_last = "*~*" + title_tmp2[1];
+                title_last = title_last + "*~*" + title_tmp2[2];
+            } else {
+
+                if (title_tmp1.indexOf("*~*") != -1) {
+                    title_tmp2 = title_tmp1.split("*~*");
+                    title_last = "*~*" + title_tmp2[1];
+                    if (title_last == "*~*") {
+                        title_last = "*~*"
+                    };
+                    if (title_last == "*~*") {
+                        title_last = "*~*"
+                    };
+                } else {
+                    title_last = "Together"
+                }
+            }
+
+
+            title_new = "" + title_last + ""
+            step = 0
+
+            function flash_title() {
+                step++
+                if (step == 8) {
+                    step = 1
+                }
+                if (step == 1) {
+                    document.title = '|----♥' + title_new + '♥----|'
+                }
+                if (step == 2) {
+                    document.title = '|---♥-' + title_new + '-♥---|'
+                }
+                if (step == 3) {
+                    document.title = '|--♥--' + title_new + '--♥--|'
+                }
+                if (step == 4) {
+                    document.title = '|-♥---' + title_new + '---♥-|'
+                }
+                if (step == 5) {
+                    document.title = '|♥----' + title_new + '----♥|'
+                }
+                if (step == 6) {
+                    document.title = '|-♥---' + title_new + '---♥-|'
+                }
+                if (step == 7) {
+                    document.title = '|--♥--' + title_new + '--♥--|'
+                }
+                if (step == 8) {
+                    document.title = '|---♥-' + title_new + '-♥---|'
+                }
+                if (step == 9) {
+                    document.title = '|----♥' + title_new + '♥----|'
+                }
+                setTimeout("flash_title()", 180);
+            }
+            flash_title()
+        </script>
+</head>
+<body>
+     <div id="wrapper">
+           <h1>LOVE DAYS</h1>
+
+           <div id="clock-box">
+                 <div id="clock">
+                       <date>0 DAYS</date>
+                       <time>00:00:00</time>
+                  </div>
+            </div>
+            
+            <div id="info">
+                  <div class="one">
+                        <img src="img/thuong.jpg" class="avt">
+                        <p><font size="5" style="background: url(img/chopnhay.gif) 
+						repeat scroll 0% 0% transparent; color:#FFE9FC;text-shadow: 0 0 0.2em #241D1B,0 0 0.2em #241D1B">Trương Phạm Hoài Thương<br>(EoPi)</font></p>
+                  </div>
+                  <div id="heart">
+                        ❤<anni>...</anni>
+                  </div>
+                  <div class="two">
+                        <img src="img/anh.jpg" class="avt">
+                        <p><font size="5" style="background: url(img/chopnhay.gif) 
+						repeat scroll 0% 0% transparent; color:#FFE9FC;text-shadow: 0 0 0.2em #241D1B,0 0 0.2em #241D1B">Quách Tâm Anh<br>(Bé Con)</font></p>
+                  </div>
+            </div>
+            
+            <div id="music">
+                  <audio loop autoplay controls>Your browser does not support the audio element.</audio>
+            </div>
+            <footer>Cảm Ơn Vì Tình Yêu Của Hai Ta 💕</footer>
+      </div> 
+      
+      <script src="app.js"></script>
+</body>
+</html>
